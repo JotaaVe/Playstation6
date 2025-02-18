@@ -95,8 +95,12 @@
     transform: scaleY(-1); /* Inverte verticalmente */
     opacity: 0.4; /* Diminui a opacidade do reflexo */
     filter: blur(5px); /* Adiciona um desfoque ao reflexo */
-    border-radius: 0 0 10px 10px; /* Arredonda as bordas do reflexo */
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); /* Gradiente para dar um efeito suave de reflexão */
+    border-radius: inherit;
+   
+}
+
+.card:hover{
+    transform: scale(1.05);
 }
 
 .card:hover .pressX {
