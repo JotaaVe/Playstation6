@@ -136,3 +136,9 @@
     color: white;
     border-radius: 40px 5px 40px 5px;
 }
+
+.user4:hover{
+    background: linear-gradient(180deg, rgb(118, 0, 208) 0%, rgb(48, 0, 78) 100%);
+    color: white;
+    border-radius: 40px 5px 40px 5px;
+}
